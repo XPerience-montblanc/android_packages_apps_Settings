@@ -17,9 +17,9 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
-<!--XPERIENCE LOGO-->
+<!--XPERIENCE LOGO
 <PreferenceScreen android:key="xpe_logo"
-                          android:layout="@layout/logo_row" />
+                          android:layout="@layout/logo_row" />-->
 
 
         <!-- System update settings - launches activity -->
