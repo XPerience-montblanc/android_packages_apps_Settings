@@ -64,7 +64,10 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
     private static final String KEY_FIRMWARE_VERSION = "firmware_version";
     private static final String KEY_DEVICE_CPU = "device_cpu";
     private static final String KEY_DEVICE_MEMORY = "device_memory";
-
+    private static final String KEY_XPE_DEV = "xpe_dev";
+    private static final String KEY_XDA_DEV = "xda_dev";
+    private static final String KEY_GPU_INF = "gpu_inf";
+    private static final String KEY_CPU_CHIP = "chip_cpu";
     private static final String KEY_MOD_VERSION = "mod_version";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
 
@@ -86,6 +89,11 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
         findPreference(KEY_KERNEL_VERSION).setSummary(getFormattedKernelVersion());
         setValueSummary(KEY_MOD_VERSION, "ro.cm.version");
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
+        setValueSummary(KEY_XPE_DEV, "ro.xpe.dev");
+        setValueSummary(KEY_XDA_DEV, "ro.xda.name");
+        setValueSummary(KEY_GPU_INF, "ro.device.gpu");
+        setValueSummary(KEY_CPU_CHIP, "ro.device.chipset");
+
 
         String cpuInfo = getCPUInfo();
         String memInfo = getMemInfo();
