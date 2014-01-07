@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project
+<!-- Copyright (C) 2012 The XPerience Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -927,7 +927,11 @@
     <string name="status_bar_signal_text_summary">Display style of signal status</string>
     <string name="status_bar_signal_text_show_bars">Icon (default)</string>
     <string name="status_bar_signal_text_show_text">Text</string>
-    <string name="status_bar_signal_text_hidden">Hidden</string>
+    <string name="status_bar_battery_status_icon">Icon (default)</string> <!-- TODO: dedup -->
+    <string name="status_bar_battery_status_percentage">Percentage</string>
+    <string name="status_bar_battery_status_circle">Circle</string>
+    <string name="status_bar_battery_status_circle_percentage">Circle with percentage</string>
+    <string name="status_bar_battery_status_hidden">Hidden</string> <!-- TODO: dedup -->
 
     <string name="lock_screen_title">Lock screen</string>
 
@@ -1753,18 +1757,18 @@
     <string name="system_update_settings_list_item_summary">""</string>
 
     <!-- Donate #CM -->
-    <!-- About device screen, list item title. Takes the user to the screen about how to donate to the CyanogenMod Project. -->
+    <!-- About device screen, list item title. Takes the user to the screen about how to donate to the XPerience Project. -->
     <string name="donate_settings_title">Donate</string>
-    <!-- About device screen, list item summary. Takes the user to the screen about how to donate to the CyanogenMod Project. -->
+    <!-- About device screen, list item summary. Takes the user to the screen about how to donate to the XPerience Project. -->
     <string name="donate_settings_summary">""</string>
 
     <!-- Anonymous Statistics #CM -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">CyanogenMod Statistics</string>
-    <string name="anonymous_statistics_summary">Help make CyanogenMod better by opting into anonymous statistics reporting</string>
+    <string name="anonymous_statistics_title">XPerience Statistics</string>
+    <string name="anonymous_statistics_summary">Help make XPerience better by opting into anonymous statistics reporting</string>
     <string name="anonymous_statistics_warning_title">About</string>
-    <string name="anonymous_statistics_warning">Opting into CyanogenMod Statistics will allow non-personal data to be submitted to the
-        developers of CyanogenMod to track unique installations across devices. The information submitted includes an unique identifier,
+    <string name="anonymous_statistics_warning">Opting into XPerience Statistics will allow non-personal data to be submitted to the
+        developers of XPerience to track unique installations across devices. The information submitted includes an unique identifier,
         which does not compromise your privacy or personal data. The data is submitted during each boot.\n\nFor an example of the data that is submitted, tap on Preview Data.</string>
     <string name="enable_reporting_title">Enable reporting</string>
     <string name="preview_data_title">Preview data</string>
@@ -1773,7 +1777,7 @@
     <string name="anonymous_learn_more">Learn more</string>
 
     <!-- Anonymous Statistics - Notification -->
-    <string name="anonymous_notification_desc">Enable or Disable CyanogenMod Statistics</string>
+    <string name="anonymous_notification_desc">Enable or Disable XPerience Statistics</string>
 
     <!-- Anonymous Statistics - Preview -->
     <string name="preview_id_title">Unique ID</string>
@@ -1814,7 +1818,7 @@
     <!-- About device screen, version of kernel. -->
     <string name="kernel_version">Kernel version</string>
     <!-- About device screen, version of modification of Android. -->
-    <string name="mod_version">CyanogenMod version</string>
+    <string name="mod_version">XPerience version</string>
     <string name="mod_version_default">Unknown</string>
     <!-- About device screen, build number. -->
     <string name="build_number">Build number</string>
@@ -4516,6 +4520,16 @@ found in the list of installed apps.</string>
     <string name="increasing_ring_interval_10seconds">10 seconds</string>
 
     <!-- CM Updater -->
-    <string name="cmupdate_settings_title">CyanogenMod updates</string>
+    <string name="cmupdate_settings_title">XPerience updates</string>
     <string name="cmupdate_settings_summary">Check for, view or install available updates</string>
+
+<!--XPerience Stuff-->
+<string name="builder_info_title">Developer of XPerience™ </string>
+    <string name="dev_xpe">Developer of XPerience™</string>
+    <string name="xda_dev">Developer on XDA </string>
+    <string name="gpu_info">GPU </string>
+    <string name="gpu_info_default">GPU UNKNOW </string>
+    <string name="chip_cpu">CPU chipset </string>
+    <string name="chip_cpu_default">Chipset UNKNOW</string>
+
 </resources>
