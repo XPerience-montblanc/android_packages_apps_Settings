@@ -4532,4 +4532,11 @@ found in the list of installed apps.</string>
     <string name="chip_cpu">CPU chipset </string>
     <string name="chip_cpu_default">Chipset UNKNOW</string>
 
+ <!-- XPerience by: TeamMEX -->
+<string name="cat_status_bar">Status bar</string>
+<string name="header_category_xperience">XPerience™</string>
+<string name="xperience_settings_title">XPerience™ Settings</string>
+<string name="pref_center_clock_status_bar_title">Center clock</string>
+<string name="pref_center_clock_status_bar_summary">On the status bar aligns the clock to center (Wait for restarting SystemUI)</string>
+
 </resources>
